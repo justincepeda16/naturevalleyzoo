@@ -1,65 +1,68 @@
-* {
-   /* border: 1px solid red */
-}
-
+/* * {
+    border: 1px solid red 
+ }
+*/
 body {
    background-color: #91DB0F; 
-   /* font-family: 'Akaya Kanadaka', Tahoma; */
-   /* margin: 10px; */
+   font-family: 'Akaya Kanadaka', Tahoma;
+   margin: 10px;
 }
 
 header{
-   /* background-color: green; */
-   /* padding: 10px; */
-   /* text-align: center; */
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
 }
 
 nav > ul {
-    /*list-style-type: none; */
-   /* margin: 2px; */
-   /* text-align: center; */
+    list-style-type: none;
+    margin: 2px;
+    text-align: center;
 }
 
 nav li {
-   /* display: inline-block; */
-   /* margin: 0px 10px; */
-   /* background-color: green; */
+   display: inline-block;
+   margin: 0px 10px;
+   background-color: green;
 }
 
 h1 {
-   /* background-color: green; */
-   /* text-align: center; */
-   /* color: yellow; */
-   /* font-size: 85px; */
-   /* border:thick ; */
-   /* border-color: black; */
+   background-color: green;
+   text-align: center;
+   color: yellow;
+   font-size: 65px;
+   border: thick;
+   border-color: black;
+   margin: auto;
 }
 
 a:link {
-   /* color: white; */
+   color: white;
 }
 
-article {
-   /* max-width: 100px; */
-   /* display:inline-block */
+section {
+   display:block;
+   block-size: auto;
+   border: 5px solid black
 }
 
 .main-banner {
-
+    max-height: fit-content;
 }
 
 .contact-form {
-   /* background-color: rgb(129, 129, 248); */
-   /* border-width: 10px; */
-   /* border-color: black; */
+   background-color: rgb(129, 129, 248);
+   text-align: center;
 }
 
 .info {
-   /* background-color: orange; */
-   /* border-width: 10px; */
-   /* border-color: black; */
+   background-color: orange;
+   text-align: center;
 }
 
 footer {
-   /* background-color: ; */
+   background-color: blue;
+   border-width: 10px;
+   border-color: black;
 }
