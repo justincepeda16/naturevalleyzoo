@@ -41,6 +41,10 @@ a:link {
    color: white;
 }
 
+a:visited{
+   color:white;
+}
+
 section {
    display:block;
    block-size: auto;
@@ -65,8 +69,14 @@ footer {
    background-color: blue;
    border-width: 10px;
    border-color: black;
+   color: white;
+   text-align: center;
 }
 
 h2 {
    text-align: center;
+}
+
+.star {
+   max-width: 25px;
 }
