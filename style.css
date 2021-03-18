@@ -6,6 +6,7 @@ body {
    background-color: #91DB0F; 
    font-family: 'Akaya Kanadaka', Tahoma;
    margin: 10px;
+   text-align: center;
 }
 
 header{
@@ -13,12 +14,17 @@ header{
     padding: 10px;
     text-align: center;
     margin: auto;
+    text-shadow: 2px 2px 7px #000;
 }
 
 nav > ul {
     list-style-type: none;
     margin: 2px;
     text-align: center;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 nav li {
@@ -45,10 +51,8 @@ a:visited{
    color:white;
 }
 
-section {
-   display:block;
-   block-size: auto;
-   border: 5px solid black
+div {
+   vertical-align: top;
 }
 
 .main-banner {
@@ -58,15 +62,31 @@ section {
 .contact-form {
    background-color: rgb(129, 129, 248);
    text-align: center;
+   height: 300px;
+   width: 400px;
+   box-shadow: 5px 5px 5px 5px #777;
+   border: 5px solid black;
+   padding: 20px;
+   border-top-left-radius: 10px;
+   margin: auto;
+   display: inline-block;
 }
 
 .info {
    background-color: orange;
    text-align: center;
+   height: 300px;
+   width: 400px;
+   box-shadow: 5px 5px 5px 5px #777;
+   border: 5px solid black;
+   padding: 20px;
+
+   border-top-right-radius: 10px;
+  display: inline-block;
 }
 
 footer {
-   background-color: blue;
+   background-color: rgb(255, 0, 255, 0.35);
    border-width: 10px;
    border-color: black;
    color: white;
@@ -75,6 +95,12 @@ footer {
 
 h2 {
    text-align: center;
+}
+
+#email-form {
+   background-color: rgb(255, 0, 255, 0.35);
+   font-size: 35px;
+   color: white;
 }
 
 .star {

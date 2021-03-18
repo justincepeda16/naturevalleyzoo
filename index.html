@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href=".\style.css">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
     <title>Nature Valley Zoo</title>
@@ -17,56 +19,53 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="https://shawn-ebanks.github.io/zoo-project/">Species</a></li>
+            <li><a href="https://shawn-ebanks.github.io/zoo-project/v2.html">Species</a></li>
             <li><a href="/merchandise">Merchandise</a></li>
             <li><a href="/contact-us">Contact Us</a></li>
         </ul>
     </nav>
-   <script src="greeting.js"></script> 
+   <!-- <script src="greeting.js"></script> 
    <script src="pressAButton.js"></script>
-   <script src="rateMe.js"></script>
+   <script src="rateMe.js"></script> -->
     <figure class="main-banner">
         <img 
         src="https://blog.currentcatalog.com/wp-content/uploads/2019/09/AdobeStock_269466462.jpeg"
         alt="Nature Valley Zoo" width="100%">
     </figure>
-    <section class="contact-form">
-            <h2>Contact Form</h2>
-            <form>
-                <div>
-                    <label for="name">Full Name: </label>
-                    <input type="text" name="name" id="name" required>
-                  </div>
-                  <div>
-                    <label for="email">E-mail: </label>
-                    <input type="email" name="email" id="email" required>
-                  </div>
-                  <div>
-                    <label for="message">Message</label>
-                    <input type="email" name="email" id="email" required>
-                  </div>
-                  <div>
-                    <input type="submit" value="Submit">
-                  </div>
-                </form>
-            </form>
-    </section>
 
-    <section class="info">
-            <h2>Location </h2>
-            <p>123 Zoo Avenue<br>
-               Seattle, WA 98101
-            </p>
-
-            <h3>Phone</h3>
-            <p>(800) 444-5555 - (Main Office)
-            </p>
-
-            <h3>E-mail</h3>
-            <p>naturevalleyzoo@email.com
-            </p>
-    </section>
-
-    <footer>&copy; Nature Valley Zoo</footer>
+    <div class="contact-form">
+        <h2>Contact Form</h2>
+        <label for="name">Full Name: </label>
+        <input type="text" name="name" id="name" required><br>
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required><br>
+        <label for="message">Message</label>
+        <input type="email" name="email" id="email" required><br>
+        <input type="submit" value="Submit">
+    </div>
+    <div class="info">
+        <h2>Location </h2>
+        <p>123 Zoo Avenue<br>
+           Seattle, WA 98101
+        </p>
+        <h3>Phone</h3>
+        <p>(800) 444-5555 - (Main Office)
+        </p>
+        <h3>E-mail</h3>
+        <p>naturevalleyzoo@email.com
+        </p>
+    </div>
+<br><br>
+<div>
+    <form id="email-form" onSubmit="checkAdress('email');">
+        Sign up for our newsletter!
+        Enter your Email here:
+        <input type="text" id="email">
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+        © Government of Western Nature Valley
+    </footer>
+</div>
 </body>
 </html>
